@@ -146,17 +146,15 @@
 }	
 
 
-.EasyCode {
+.Day {
 	position: relative;
 	padding-top: 23px;
 	padding-left: 16px;
 	padding-right: 12px;
-	height: var(--titleBarHeight);
 	color: #444444;
 	font-family: "Sax";
 	font-family: "Courier New Bold";
 	font-family: "gotham-bold";
-	--font-weight: bolder;
 	font-size: 13pt;
 }
 
