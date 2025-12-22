@@ -1,0 +1,358 @@
+:root {
+	--topBarHeight: 24px;
+	--titleBarHeight: 68px;
+	--titleBarHeight: 76px;
+	--tabBarHeight: 36px;
+	--statusBarHeight: 24px;
+	--commentResultHeight: 76px;
+	--colorDarkBlue: #3A7AB8;
+	--colorLightBlue: #DEEAF9;
+	--colorLightOrange: #f9e9a9;
+	--colorButton: #1eb3e4;
+	--colorButtonDark: #1b9ec9;
+	--colorHover: #64646426;
+
+	--colorGrey1: #F9F9F9;
+	--colorGrey1Transparent: #F9F9F900;
+
+	--colorGrey2: #babfc6;
+	--colorGrey2: #F3F3F3;
+
+	--colorGrey3: #EaEaEa;
+	--colorGrey3: #EaEaEa;
+
+	--colorMessages: #59a8ea;
+	--colorMessages: #db22b0;
+	--colorMessages: #1eb3e4;
+	--colorMessagesDark: #2e7cbd;
+	--colorMessagesDark: #1b9ec9;
+	--colorSubmitted: #def2eb;
+
+
+	--colorTutor0: #1eb3e4;
+	--colorTutor1: #1dd7c1;
+	--colorTutor2: #80d623;
+	--colorTutor3: #c4d31c;
+	--colorTutor4: #d3b821;
+	--colorTutor5: #db8b1c;
+	--colorTutor6: #d5301d;
+	--colorTutor7: #c11790;
+	--colorTutor8: #951bc1;
+	--colorTutor9: #601ee4;
+/*
+	--colorTutor0: #2989c5;
+	--colorTutor1: #34c150;
+	--colorTutor2: #cfb531;
+	--colorTutor3: #c65220;
+	--colorTutor4: #cc1faf;
+	--colorTutor5: #891fd0;
+	--colorTutor6: #e4921e;
+	--colorTutor7: #e4671e;
+	--colorTutor8: #e4281e;
+	--colorTutor9: #e41e98;
+*/
+
+	/*
+	--colorGrey1: #F7F7F7;
+	--colorGrey2: #F4F4F4;
+	--colorGrey3: #F0F0F0;
+	*/
+}
+
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(201, 199, 199); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(151, 150, 150); 
+  }
+
+
+.Application {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	font-family: "rubik-Regular";
+	font-size: 10pt;
+	color: #555555;
+}
+
+
+.MainFrame {
+	position: relative;
+	height: calc(100% - var(--topBarHeight) - var(--statusBarHeight));
+}
+
+
+
+
+/*-----------*/
+.SplitterVertical.splitter-layout .layout-pane {
+	position: relative;
+	flex: 0 0 auto;
+	overflow: hidden;
+  }
+  
+.SplitterVertical.splitter-layout .layout-pane.layout-pane-primary {
+	flex: 1 1 auto;
+  }
+
+.SplitterVertical.splitter-layout {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow: hidden;
+  }
+
+.SplitterVertical.splitter-layout > .layout-splitter {
+	flex: 0 0 auto;
+	width: 4px;
+	height: 100%;
+	cursor: col-resize;
+	background-color: #ECECEC;
+	background-color: #F3F3F3;
+  }
+  
+.SplitterVertical.splitter-layout .layout-splitter:hover {
+	background-color: #cccccc;
+  }
+  
+
+.SplitterVertical.splitter-layout.layout-changing > .layout-splitter {
+	background-color: #cccccc;
+  }
+/*-----------*/
+
+
+
+.TitlePane {
+	position: relative;
+	height: calc(var(--titleBarHeight) + var(--tabBarHeight));
+	background: #F3F3F3;
+}	
+
+
+.EasyCode {
+	position: relative;
+	padding-top: 23px;
+	padding-left: 16px;
+	padding-right: 12px;
+	height: var(--titleBarHeight);
+	color: #444444;
+	font-family: "Sax";
+	font-family: "Courier New Bold";
+	font-family: "gotham-bold";
+	--font-weight: bolder;
+	font-size: 13pt;
+}
+
+
+.Main {
+	position: relative;
+	height: 100%;
+}
+
+
+.FloatIn {
+	position: relative;
+	background: lightblue;
+	float: left;
+	height: 100%;
+	height: 500px;
+	width: 320px;
+	/*
+	animation-name: floaterIn;
+	animation-duration: 500ms;
+	animation-timing-function: cubic-bezier(.14,.8,.73,.96);
+	animation-timing-function: ease-out;
+	*/
+}
+
+
+.FloatOut {
+	position: relative;
+	float: left;
+	width: 320px;
+	height: 100%;
+	margin-left: -320px;
+	background: lightblue;
+	z-index: 9;
+	animation-name: floaterOut;
+	animation-duration: 500ms;
+	animation-timing-function: cubic-bezier(.63,.14,.97,.66);
+	animation-timing-function: cubic-bezier(.1,.2,.7,.9);
+	animation-timing-function: ease-in;
+
+}
+
+
+@keyframes floaterIn {
+	0% {margin-left: -320px;}
+	100% {margin-left: 0px; }
+}
+
+
+@keyframes floaterOut {
+	0% {margin-left: 0px; }
+	100% {margin-left: -320px; }
+}
+
+
+.Data {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+
+.SliderLeft {
+	position: relative;
+	float: left;
+	width: 320px;
+	height: 100%;
+	background: lightblue;
+	z-index: 9;
+	animation-name: floaterIn;
+	animation-duration: 500ms;
+	animation-timing-function: linear;
+	animation-timing-function: cubic-bezier(.1,.2,.7,.9);
+	animation-timing-function: ease-in;
+}
+
+
+.SliderRight {
+	position: relative;
+	float: left;
+	width: calc(100% - 320px);
+	height: 100%;
+}
+
+.DirTab {
+	position: relative;
+	background: var(--colorGrey3);
+	height: var(--tabBarHeight);
+}
+
+.DirReadStatus {
+	position: relative;
+	height: 100%;
+	padding: 10px;
+	color: var(--colorMessagesDark);
+	line-height: 12pt;
+	white-space: nowrap;
+}
+
+.ReadStatusBold {
+	display: inline-block;
+	--font-family: "rubik-medium";
+}
+
+
+.ReadStatusNormal {
+	display: inline-block;
+	color: #555555;
+}
+
+
+.xx {
+	height: 16px;
+	line-height: 12pt;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 9pt;
+	white-space: nowrap;
+}
+
+
+
+.NewLecture {
+	height: 23px;
+	width: 23px;
+	margin-left: 9px;
+	padding-top: 2px;
+	margin-top: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	border-radius: 26px;
+	color: #777777;
+	display: inline-block;
+}
+
+.NewLecture:hover {
+	background: var(--colorMessages);
+	color: white;
+}
+
+.NewLectureIcon {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+
+.NewLectureText {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 7px;
+	padding-left: 7px;
+}
+
+.LoginFrame {
+	width: 100%;
+	height: 100%;
+	font-family: "rubik-regular";
+	font-size: 10pt;
+	color: #555555;
+}
+
+.LoginInfo {
+	top: 40%;
+    left: 46%;
+	position: fixed;
+	text-align: center;
+}
+
+
+.LoginText {
+	text-align: center;
+	margin-top: -25px;
+	font-size: 9pt;
+}
+
+
+
+.LoginSSO {
+	background: var(--colorGrey3);
+	text-align: center;
+	height: 28px;
+	cursor: pointer;
+	margin-top: 30px;
+	padding-top: 4px;
+}
+
+.LoginSSO:hover {
+	background: var(--colorDarkBlue);
+	color: var(--colorButtonDark);
+	color: white;
+}
+
+.Error {
+	margin-top: 30px;
+}
