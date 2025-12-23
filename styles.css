@@ -281,7 +281,7 @@
 .Day {
 	position: relative;
 	margin: auto;
-	width: 900px;
+	width: 1000px;
 	padding-top: 20px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -294,8 +294,8 @@
 
 .Break {
 	position: relative;
-	width: 900px;
-	height: 40px;
+	width: 1000px;
+	height: 20px;
 }
 
 h1 {
