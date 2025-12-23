@@ -8,9 +8,7 @@ h1 {
 	padding-left: 16px;
 	padding-right: 12px;
 	color: #444444;
-	font-family: "Sax";
-	font-family: "Courier New Bold";
-	font-family: "gotham-bold";
+	font-family: "Ubuntu-Regular";
 	font-size: 13pt;
 }
 
@@ -141,6 +139,181 @@ h1 {
 	color: white;
 }
 
-.Error {
-	margin-top: 30px;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+	font-family: "Courier New";
+	src: url("./fonts/Courier\ New.ttf");
+}
+
+@font-face {
+	font-family: "Courier New Black";
+	src: url("./fonts/Courier\ New\ Bold.ttf");
+}
+
+@font-face {
+	font-family: "Gotham-Black";
+	src: url("./fonts/Gotham-Black.ttf");
+}
+
+@font-face {
+	font-family: "Gotham-Bold";
+	src: url("./fonts/Gotham-Bold.ttf");
+}
+
+
+@font-face {
+	font-family: "Gotham-Book";
+	src: url("./fonts/Gotham-Book.ttf");
+}
+
+
+@font-face {
+	font-family: "Gotham-Light";
+	src: url("./fonts/Gotham-Light.ttf");
+}
+
+
+@font-face {
+	font-family: "Gotham-Thin";
+	src: url("./fonts/Gotham-Thin.ttf");
+}
+
+
+@font-face {
+	font-family: "F1-regular";
+	src: url("./fonts/Formula1-Regular_web_0.ttf");
+}
+
+
+@font-face {
+	font-family: "F1-bold";
+	src: url("./fonts/Formula1-Bold_web_0.ttf");
+}
+
+
+@font-face {
+	font-family: "Ubuntu-Bold";
+	src: url("./fonts/Ubuntu-Bold.ttf");
+}
+
+
+@font-face {
+	font-family: "Ubuntu-Medium";
+	src: url("./fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Ubuntu-Regular";
+	src: url("./fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Ubuntu-Light";
+	src: url("./fonts/Ubuntu-Light.ttf");
+}
+
+
+@font-face {
+	font-family: "Rubik-Bold";
+	src: url("./fonts/Rubik-Bold.ttf");
+}
+
+
+@font-face {
+	font-family: "Rubik-Medium";
+	src: url("./fonts/Rubik-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Rubik-Regular";
+	src: url("./fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Rubik-Light";
+	src: url("./fonts/Rubik-Light.ttf");
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: url("./fonts/CONSOLA.TTF");
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: url("./fonts/Menlo.ttc");
+}
+
+@font-face {
+	font-family: "Zag-Bold";
+	src: url("./fonts/ZagBold.otf");
+}
+
+@font-face {
+	font-family: "Zag-Regular";
+	src: url("./fonts/ZagRegular.otf");
+}
+
+@font-face {
+	font-family: "Typori-Regular";
+	src: url("./fonts/Typori-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Unispace-Bold";
+	src: url("./fonts/unispace_bd.ttf");
+}
+
+@font-face {
+	font-family: "Sax";
+	src: url("./fonts/saxmono.ttf");
+}
+
+
+@font-face {
+	font-family: "Exo";
+	src: url("./fonts/Exo-DemiBold.otf");
+}
+
+
+@font-face {
+	font-family: "Neon";
+	src: url("./fonts/Neon.ttf");
+}
+
+@font-face {
+	font-family: "Yelly";
+	src: url("./fonts/Yelly.ttf");
+}
+
+@font-face {
+	font-family: "Pencil";
+	src: url("./fonts/PPETRIAL.ttf");
+}
+
+@font-face {
+	font-family: "Avenir";
+	src: url("./fonts/Avenir.ttc");
+}
+
+
+@font-face {
+	font-family: "Trebuchet";
+	src: url("./fonts/Trebuchet\ MS.ttf");
+}
+
+
