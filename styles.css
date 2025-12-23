@@ -288,13 +288,13 @@
 	padding-left: 40px;
 	padding-right: 40px;
 	color: #444444;
-	background: #ddffaa;
+	background-color: #ddffaa;
 	font-family: "Rubik-Regular";
-	font-size: 13pt;
+	font-size: 12pt;
 }
 
 h1 {
-  	color: #990000;
+  	color: #99ff00;
 	font-family: "Rubik-Bold";
 	font-size: 16pt;
 }
