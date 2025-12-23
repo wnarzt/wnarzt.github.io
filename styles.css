@@ -280,21 +280,29 @@
 
 .Day {
 	position: relative;
-	width: 600px;
+	justify-content: center;
+	width: 800px;
 	padding-top: 0px;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-bottom: 40px;
 	color: #444444;
-	background-color: #ddffaa;
+	background-color: #eeeeee;
 	font-family: "Rubik-Regular";
 	font-size: 12pt;
 }
 
 h1 {
-  	color: #99ff00;
+  	color: #990000;
 	font-family: "Rubik-Bold";
 	font-size: 16pt;
+}
+
+
+h2 {
+  	color: #444444;
+	font-family: "Rubik-Bold";
+	font-size: 14pt;
 }
 
 
