@@ -284,6 +284,7 @@
 
 .Day {
 	position: relative;
+	width: 600px;
 	padding-top: 30px;
 	padding-left: 40px;
 	padding-right: 40px;
