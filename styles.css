@@ -280,7 +280,7 @@
 
 .Day {
 	position: relative;
-	width: 800px;
+	width: 900px;
 	padding-top: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -291,10 +291,16 @@
 	font-size: 12pt;
 }
 
+.Break {
+	position: relative;
+	width: 900px;
+	height: 40px;
+}
+
 h1 {
   	color: #990000;
 	font-family: "Rubik-Bold";
-	font-size: 16pt;
+	font-size: 18pt;
 }
 
 
